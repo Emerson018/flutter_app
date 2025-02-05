@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "340989841276",
+    "project_id": "financy-f0f1a",
+    "storage_bucket": "financy-f0f1a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:340989841276:android:564f3b342ced2d6b6adef9",
+        "android_client_info": {
+          "package_name": "dev.sayrix.financy.financy_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6S9T8DrVDbEQ59OCX4ZrwdBdd8DJaIRs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:340989841276:android:9956fca72f4ab9e16adef9",
+        "android_client_info": {
+          "package_name": "dev.sayrix.financy.flutter_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6S9T8DrVDbEQ59OCX4ZrwdBdd8DJaIRs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
