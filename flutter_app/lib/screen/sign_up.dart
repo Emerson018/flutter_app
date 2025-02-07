@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_app/const/colors.dart';
+import 'package:flutter_app/data/auth_data.dart';
 
 class SignUpScreen extends StatefulWidget {
   final VoidCallback show;
@@ -48,11 +49,11 @@ class _SignUpScreenState extends State<SignUpScreen> {
               SizedBox(height: 10),
               textfield(password, _focusNode2, 'Password', Icons.password),
               SizedBox(height: 10),
-              textfield(passwordConfirm, _focusNode3, 'PasswordConfirm', Icons.password),
+              textfield(passwordConfirm, _focusNode3, 'passwordConfirm', Icons.password),
               SizedBox(height: 8),
               account(),
               SizedBox(height: 20),
-              SignUp_bottom(),
+              signUpBottom(),
             ],
           ),
         ),
@@ -87,12 +88,12 @@ class _SignUpScreenState extends State<SignUpScreen> {
     );
   }
 
-  Padding SignUp_bottom() {
+  Padding signUpBottom() {
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 15),
         child: GestureDetector(
           onTap: () {
-            //AuthenticationRemote().register(email.text, password.text, passwordConfirm.text);
+            AuthenticationRemote().register(email.text, password.text, passwordConfirm.text);
           },
           child: Container(
             alignment: Alignment.center,

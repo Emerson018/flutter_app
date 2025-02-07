@@ -42,12 +42,12 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions web = FirebaseOptions(
     apiKey: 'AIzaSyA_UxsyMdOnj1ml0ns4FfxLE8iXG4FBPPc',
-    appId: '1:340989841276:web:c5e8a38e515a51486adef9',
+    appId: '1:340989841276:web:65257224b38427946adef9',
     messagingSenderId: '340989841276',
     projectId: 'financy-f0f1a',
     authDomain: 'financy-f0f1a.firebaseapp.com',
     storageBucket: 'financy-f0f1a.firebasestorage.app',
-    measurementId: 'G-0EGWW6HCXL',
+    measurementId: 'G-MP3EMN92J9',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
@@ -85,4 +85,5 @@ class DefaultFirebaseOptions {
     storageBucket: 'financy-f0f1a.firebasestorage.app',
     measurementId: 'G-MP3EMN92J9',
   );
+
 }

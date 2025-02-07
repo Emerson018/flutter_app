@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_app/const/colors.dart';
+import 'package:flutter_app/data/auth_data.dart';
 
 class LogInScreen extends StatefulWidget {
   final VoidCallback show;
@@ -45,7 +46,7 @@ class _LogInScreenState extends State<LogInScreen> {
               SizedBox(height: 8),
               account(),
               SizedBox(height: 20),
-              Login_bottom(),
+              loginBottom(),
             ],
           ),
         ),
@@ -83,12 +84,12 @@ class _LogInScreenState extends State<LogInScreen> {
     );
   }
 
-  Padding Login_bottom() {
+  Widget loginBottom() {
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 15),
       child: GestureDetector(
         onTap: () {
-          //AuthenticationRemote().login(email.text, password.text);
+          AuthenticationRemote().login(email.text, password.text);
         },
         child: Container(
           alignment: Alignment.center,
