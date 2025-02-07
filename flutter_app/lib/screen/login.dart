@@ -138,7 +138,7 @@ class _LogInScreenState extends State<LogInScreen> {
               horizontal: 15,
               vertical: 15
             ),
-            hintText: 'typeName',
+            hintText: typeName,
             enabledBorder: OutlineInputBorder(
               borderRadius: BorderRadius.circular(10),
               borderSide: BorderSide(

@@ -24,3 +24,4 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+// caso o erro aconteça de novo, segue o link: https://chat.deepseek.com/a/chat/s/321c1235-1cd6-4be6-8fa3-ef0c79b89b7f

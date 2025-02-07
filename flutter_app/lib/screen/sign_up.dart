@@ -142,7 +142,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
               horizontal: 15,
               vertical: 15
             ),
-            hintText: 'typeName',
+            hintText: typeName,
             enabledBorder: OutlineInputBorder(
               borderRadius: BorderRadius.circular(10),
               borderSide: BorderSide(
